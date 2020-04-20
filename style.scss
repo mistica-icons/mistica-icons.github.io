@@ -1,6 +1,29 @@
 ---
 ---
 
+@font-face {
+  font-family: "SF Text";
+  font-weight: 200;
+  src: url("https://sf.abarba.me/SF-UI-Text-Light.otf");
+}
+
+/** Regular */
+@font-face {
+  font-family: "SF Text";
+  font-weight: 400;
+  src: url("https://sf.abarba.me/SF-UI-Text-Regular.otf");
+}
+
+
+/** Semibold */
+@font-face {
+  font-family: "SF Text";
+  font-weight: 600;
+  src: url("https://sf.abarba.me/SF-UI-Text-Medium.otf");
+}
+
+
+
 //
 // IMPORTS
 //
@@ -19,7 +42,7 @@ html {
 
 body {
 	background: $white;
-  font: 18px/1.4 $helvetica;
+  font: 18px/1.4 $SFtext;
   color: $darkGray;
 }
 
@@ -414,7 +437,39 @@ body {
   border-bottom: 1px solid #ddd;
   background: $white;
   color: #ddd;
-  font-size: 14px;
-  padding: 20px 20px;
+  padding: 10px 20px;
+  color: #191919;
+  font: 16px/1.4 $SFtext;
   font-weight: 200;
+  text-align: center;
+}
+
+.searchBar a{
+  margin-right: 32px;
+}
+
+.searchBar a:last-child{
+  margin-right: 0px;
+}
+
+.searchBar a{ color: #191919;}
+
+.searchBar input{
+  height: 40px;
+  width: 300px;
+  border: none;
+  font: 20px/1.4 $SFtext;
+}
+
+input:focus{
+  outline: 0px solid orange;
+}
+
+::placeholder{
+  color: #ddd;
+  font-weight: 100;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }

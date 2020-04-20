@@ -25,15 +25,17 @@
             <!-- <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1> -->
           </div>
 
-          <nav>
-            <a href="{{ site.baseurl }}/">Global</a>
-            <a href="{{ site.baseurl }}/O2">O2</a>
-          </nav>
+
         </header>
       </div>
     </div>
 
     <div id="main" role="main" class="container">
+      <div class="searchBar">
+        <a href="{{ site.baseurl }}/">Global</a>
+        <a style="color: #ddd;" href="#">|</a>
+        <a href="{{ site.baseurl }}/O2">O2</a>
+      </div>
       {{ content }}
     </div>
 
