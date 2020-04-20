@@ -424,6 +424,11 @@ body {
   font-size: 12px;
   text-align: center;
   align-items: center;
+  transition: all 0.25s ease-in-out;
+}
+
+.card_download_buttons a:hover {
+  color: #191919;
 }
 
 .card_download_buttons a:last-child {
