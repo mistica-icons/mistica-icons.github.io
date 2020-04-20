@@ -409,16 +409,30 @@ body {
 
 .card:hover .card_download_buttons{
   bottom: 40px;
+  // si tiene el titulo ponerlo a 60px;
 }
 
 .card:hover img{
   padding: 0 0 30px 0;
+  // si tiene el titulo ponerlo a 50px;
 }
 
 .card_download_buttons a {
   padding: 0;
   margin: 20px 40px 0 0;
   color: #757575;
+  font-weight: light;
+  text-decoration: none;
+  font-size: 12px;
+  text-align: center;
+  align-items: center;
+  transition: all 0.25s ease-in-out;
+}
+
+.card_download_buttons p {
+  padding: 0;
+  margin: 0 0 5px 0;
+  color: #ddd;
   font-weight: light;
   text-decoration: none;
   font-size: 12px;
