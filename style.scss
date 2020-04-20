@@ -344,6 +344,7 @@ body {
   border: 0px solid #eee;
   width: 100%;
   height: 150px;
+  overflow: hidden;
 }
 
 .card_icon {
@@ -351,32 +352,37 @@ body {
   height: 150px;
   display: block;
   display: flex;
+
 }
 
 .card img {
-  margin-top: 0;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  vertical-align: middle;
+  margin: 0 auto;
+  padding: 0 0 0px 0;
+  transition: all 0.2s ease-in-out;
 
 }
 
 .card_download_buttons {
   width: 100%;
   height: 30px;
-  padding-top: 5px;
+  padding-top: 40px;
   display: block;
   position: relative;
   bottom: 40px;
-  display: none;
+  opacity: 0;
   text-align: center;
   align-items: center;
   border-top: 1px solid #f6f8fa;
+  transition: all 0.2s ease-in-out;
 }
 
 .card:hover .card_download_buttons{
-  display: block;
+  padding-top: 5px;
+  opacity: 1;
+}
+
+.card:hover img{
+  padding: 0 0 30px 0;
 }
 
 .card_download_buttons a {
