@@ -25,8 +25,8 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 90%;
-  padding: 0 10px;
+  max-width: 100%;
+  padding: 0 0px;
   width: 100%;
 }
 
@@ -151,12 +151,12 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 24px;
+  margin-bottom: 0px;
   background: #191919;
 }
 
 .masthead {
-  padding: 10px 0;
+  padding: 10px 20px;
 
   @include mobile {
     text-align: center;
@@ -392,4 +392,16 @@ body {
 
 .card_download_buttons a:last-child {
   margin: 0;
+}
+
+.searchBar{
+  height: auto;
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+  background: $white;
+  color: #ddd;
+  font-size: 14px;
+  padding: 20px 20px;
+  font-weight: 200;
 }
