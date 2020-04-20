@@ -35,24 +35,7 @@
     </div>
 
     <div id="main" role="main" class="container">
-      <div class="card_wrapper">
-        {% for image in site.static_files %}
-          {% if image.path contains 'icn_export/Global' %}
-            {% if image.extname == '.svg' or image.extname == '.SVG' %}
-              <div class="card">
-                <div class="card_icon">
-                  <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
-                </div>
-                <div class="card_download_buttons">
-                  <a href="{{ site.baseurl }}{{ image.path | replace: '.svg', '.pdf' }}" download type="application/octet-stream">PDF</a>
-                  <a href="{{ site.baseurl }}{{ image.path }}" download type="application/octet-stream">SVG</a>
-                </div>
-
-            </div>
-            {% endif %}
-          {% endif %}
-        {% endfor %}
-      </div>
+      {{ content }}
     </div>
 
 
