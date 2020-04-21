@@ -1,7 +1,7 @@
 <div align="center">
   <img src="images/livePreview.png" />
   <strong>Build a dynamic icon repository in Github Pages</strong><br>
-  <a href="https://yceballost.github.io" target="blank">Live preview</a>
+  <a href="https://yceballost.github.io">Live preview</a>
 </div>
 
 
@@ -25,5 +25,5 @@ This is a copy of this [Jekyll project](https://github.com/barryclark/jekyll-now
 - Filters
 - Possibility to change the color and download
 
-
+---
 I am using [feather icons](https://feathericons.com/)
