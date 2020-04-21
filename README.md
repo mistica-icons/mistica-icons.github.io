@@ -25,5 +25,5 @@ This is a copy of this [Jekyll project](https://github.com/barryclark/jekyll-now
 - Filters
 - Possibility to change the color and download
 
----
+--
 I am using [feather icons](https://feathericons.com/)
