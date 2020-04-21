@@ -2,7 +2,7 @@ Build a dynamic icon repository in Github Pages
 
 ![alt text](images/livePreview.png "Title")
 
-## [Live preview](yceballost.github.io)
+<h1 align="center">[Live preview](yceballost.github.io)</h1>
 
 
 ## Installation
