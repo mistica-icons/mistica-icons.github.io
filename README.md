@@ -1,7 +1,6 @@
 Build a dynamic icon repository in Github Pages
 
-Inline-style:
-![alt text](https://github.com/yceballost/icon-repository/images/livePreview.png")
+!(images/livePreview.png")
 
 ## [Live preview](yceballost.github.io)
 
