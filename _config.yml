@@ -6,7 +6,7 @@
 name: Icon repository
 
 # Short bio or description (displayed in the header)
-description: Telefonica CX icon repository
+description: Description of you repository
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: /images/misticaLogo.svg
@@ -21,7 +21,7 @@ footer-links:
   email:
   facebook:
   flickr:
-  github: Telefonica/mistica-icons
+  github:
   instagram:
   linkedin:
   pinterest:
@@ -31,13 +31,6 @@ footer-links:
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
 
-navigation:
-- text: Global
-  url: /index
-  layout: default
-- text: O2
-  url: /O2
-  layout: default
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
@@ -48,7 +41,7 @@ google_analytics:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: https://yceballost.github.com
+url: https://[GITHUB_USERNAME].github.com
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
