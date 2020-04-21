@@ -6,7 +6,9 @@
 
 
 <br>
+
 ---
+
 ## Installation
 This is a copy of this [Jekyll project](https://github.com/barryclark/jekyll-now). In this link you have more information about how to install Jekyll and manage the files with Jekyll.
 
@@ -24,5 +26,6 @@ This is a copy of this [Jekyll project](https://github.com/barryclark/jekyll-now
 - Filters
 - Possibility to change the color and download
 
---
+<br>
+
 I am using [feather icons](https://feathericons.com/)
