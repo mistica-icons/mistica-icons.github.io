@@ -1,5 +1,11 @@
 Build a dynamic icon repository in Github Pages
 
+Inline-style:
+![alt text](https://github.com/yceballost/icon-repository/images/livePreview.png")
+
+## [Live preview](yceballost.github.io)
+
+
 ## Installation
 This is a copy of this [Jekyll project](https://github.com/barryclark/jekyll-now). In this link you have more information about how to install Jekyll and manage the files with Jekyll.
 
