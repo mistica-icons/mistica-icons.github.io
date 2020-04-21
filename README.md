@@ -1,6 +1,6 @@
 <div align="center">
   <img src="images/livePreview.png" />
-  <strong>Build a dynamic icon repository in Github Pages</strong>
+  <strong>Build a dynamic icon repository in Github Pages</strong><br>
   <a href="https://yceballost.github.io">Live preview</a>
 </div>
 
