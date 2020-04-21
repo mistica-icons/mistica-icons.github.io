@@ -1,8 +1,6 @@
 <div align="center">
-Build a dynamic icon repository in Github Pages
-
-![alt text](images/livePreview.png "Title")
-
+  ![alt text](images/livePreview.png "Title")
+  Build a dynamic icon repository in Github Pages
   <a href="https://yceballost.github.io">Live preview</a>
 </div>
 
