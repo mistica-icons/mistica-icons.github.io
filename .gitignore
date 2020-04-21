@@ -9,3 +9,7 @@ Gemfile
 Gemfile.lock
 node_modules
 package.json
+
+
+# Ignore sketch files
+*.sketch
