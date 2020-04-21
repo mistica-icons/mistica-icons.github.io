@@ -1,6 +1,6 @@
 Build a dynamic icon repository in Github Pages
 
-!(https://raw.githubusercontent.com/yceballost/icons-repository/master/images/livePreview.png)
+![alt text](images/livePreview.png "Title")
 
 ## [Live preview](yceballost.github.io)
 
