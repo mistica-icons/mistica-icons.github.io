@@ -6,8 +6,7 @@
 
 
 <br>
-<br>
-
+---
 ## Installation
 This is a copy of this [Jekyll project](https://github.com/barryclark/jekyll-now). In this link you have more information about how to install Jekyll and manage the files with Jekyll.
 
