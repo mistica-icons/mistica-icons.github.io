@@ -24,7 +24,7 @@ This is a copy of this [Jekyll project](https://github.com/barryclark/jekyll-now
 - Icon tagging
 - Search bar
 - Filters
-- Possibility to change the color and download
+- Possibility to change the color
 
 <br>
 
