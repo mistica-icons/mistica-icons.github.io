@@ -1,13 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="44" height="28" viewBox="0 0 44 28">
-  <defs>
-    <linearGradient id="misticalogo-a" x1="48.176%" x2="49.97%" y1="48.516%" y2="99.102%">
-      <stop offset="0%" stop-color="#191919"/>
-      <stop offset="99.916%" stop-color="#F9F9F9"/>
-    </linearGradient>
-  </defs>
-  <g fill="none" fill-rule="evenodd" transform="translate(-2 -2)">
-    <path fill="url(#misticalogo-a)" d="M31.3371165,1.88235294 C35.4954957,1.88235294 38.8665282,5.25338541 38.8665282,9.41176471 L38.8665282,22.5882353 C38.8665282,26.7466146 35.4954957,30.1176471 31.3371165,30.1176471 C27.1787372,30.1176471 23.8077047,26.7466146 23.8077047,22.5882353 L23.8077047,9.41176471 C23.8077047,5.25338541 27.1787372,1.88235294 31.3371165,1.88235294 Z" transform="rotate(20 31.337 16)"/>
-    <path fill="#F9F9F9" d="M12.2352941,1.88235294 C16.3936734,1.88235294 19.7647059,5.25338541 19.7647059,9.41176471 L19.7647059,22.5882353 C19.7647059,26.7466146 16.3936734,30.1176471 12.2352941,30.1176471 C8.07691482,30.1176471 4.70588235,26.7466146 4.70588235,22.5882353 L4.70588235,9.41176471 C4.70588235,5.25338541 8.07691482,1.88235294 12.2352941,1.88235294 Z" transform="rotate(20 12.235 16)"/>
-    <path fill="#F9F9F9" d="M40.7258758,7.23387342 L45.2324942,19.6157056 C46.6547437,23.5233039 44.6399704,27.8439993 40.732372,29.2662488 C36.8247737,30.6884982 32.5040783,28.6737249 31.0818289,24.7661266 L28.2380723,16.9539716 C27.2116014,14.6823686 25.8886778,13.5960317 24.2693015,13.6949608 L24.2693015,13.6949608 L26.3272319,8.05592355 C26.8977367,5.68250556 28.6097419,3.6311529 31.0753327,2.73375124 C34.982931,1.31150175 39.3036264,3.32627508 40.7258758,7.23387342 Z"/>
-  </g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 2</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2">
+            <circle id="Oval" fill="#005CE6" cx="20" cy="20" r="20"></circle>
+            <g filter="url(#filter-1)" id="Group">
+                <g transform="translate(20.000000, 19.500000) rotate(-45.000000) translate(-20.000000, -19.500000) translate(10.000000, 10.000000)">
+                    <rect id="Rectangle" fill="#D8D8D8" x="0" y="15" width="10" height="4" rx="2"></rect>
+                    <rect id="Rectangle" fill="#D8D8D8" x="0" y="0" width="10" height="4" rx="2"></rect>
+                    <rect id="Rectangle" fill="#D8D8D8" transform="translate(8.000000, 9.500000) rotate(-90.000000) translate(-8.000000, -9.500000) " x="-1.5" y="7.5" width="19" height="4" rx="2"></rect>
+                    <path d="M8,6 L16.5,6 C18.4329966,6 20,7.56700338 20,9.5 C20,11.4329966 18.4329966,13 16.5,13 L8,13 L8,13 L8,6 Z" id="Rectangle" stroke="#D8D8D8" stroke-width="4"></path>
+                </g>
+            </g>
+        </g>
+    </g>
 </svg>

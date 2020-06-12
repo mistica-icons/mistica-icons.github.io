@@ -39,6 +39,7 @@
 
 html {
   font-size: 100%;
+  font-family: "SF Text" !important;
 }
 
 body {
@@ -49,13 +50,17 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 100%;
   padding: 0 0px;
-  width: 100%;
+  width: calc(100% - 72px);
+  float: right;
+
+  @include mobile {
+    width: 100%;
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
+  font-family: $SFtext;
   color: $darkerGray;
   font-weight: bold;
 
@@ -176,11 +181,22 @@ img {
 
 .wrapper-masthead {
   margin-bottom: 0px;
-  background: #191919;
+  background: #0066FF;
+  width: 72px;
+  position: fixed;
+  height: 100%;
+  align-items: center;
+
+  @include mobile {
+    text-align: center;
+    width: 100%;
+    height: 64px;
+    position: relative;
+  }
 }
 
 .masthead {
-  padding: 10px 20px;
+  padding: 16px;
 
   @include mobile {
     text-align: center;
@@ -191,7 +207,7 @@ img {
   float: left;
   width: 70px;
   height: auto;
-  margin-right: 15px;
+  margin: 0 6px;
   margin-top: 5px;
 
   @include mobile {
@@ -201,7 +217,7 @@ img {
   }
 
   img {
-    border-radius: 5px;
+    border-radius: 0px;
     height: 24px;
   }
 }
@@ -350,6 +366,7 @@ body {
 
 .card_wrapper {
   margin: 0 auto;
+  margin-top: 70px;
   max-width: 100%;
   display: grid;
   padding: 0;
@@ -359,7 +376,6 @@ body {
 }
 
 .card {
-  /* display: flex; */
   justify-content: center;
   align-items: center;
   transition: transform 0.3s cubic-bezier(0.374, 0.019, 0.035, 1.861);
@@ -382,7 +398,6 @@ body {
 .card_icon {
   min-width: 100%;
   height: 150px;
-  display: block;
   display: flex;
 
 }
@@ -391,94 +406,140 @@ body {
   margin: 0 auto;
   padding: 0 0 0px 0;
   transition: all 0.2s ease-in-out;
+  transform: scale(1.2);
 
 }
 
 .card_download_buttons {
   width: 100%;
   height: 30px;
-  padding-top: 5px;
+  padding: 8px;
   display: block;
   position: relative;
   bottom: 0px;
-  text-align: center;
+  text-align: left;
   align-items: center;
   border-top: 1px solid #f6f8fa;
   transition: all 0.25s ease-in-out;
   animation-fill-mode: forwards;
+  background: white;
 }
 
 .card:hover .card_download_buttons{
-  bottom: 40px;
+  bottom: 60px;
   // si tiene el titulo ponerlo a 60px;
 }
 
 .card:hover img{
-  padding: 0 0 30px 0;
+  padding: 0 0 45px 0;
   // si tiene el titulo ponerlo a 50px;
 }
 
 .card_download_buttons a {
   padding: 0;
-  margin: 20px 40px 0 0;
+  margin: 20px 0px 0 0;
   color: #757575;
   font-weight: light;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 11px;
   text-align: center;
   align-items: center;
   transition: all 0.25s ease-in-out;
+  font-weight: bold;
+  color: #003245;
+  border: 1px solid #ddd;
+  padding: 2px 4px;
+  border-radius: 4px;
 }
 
 .card_download_buttons p {
   padding: 0;
-  margin: 0 0 5px 0;
-  color: #ddd;
+  margin: 0 0 0 2px;
+  color: #757575;
   font-weight: light;
   text-decoration: none;
   font-size: 12px;
-  text-align: center;
   align-items: center;
   transition: all 0.25s ease-in-out;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 150px;
 }
 
 .card_download_buttons a:hover {
-  color: #191919;
+  color: #003245;
+  background: #eee;
 }
 
 .card_download_buttons a:last-child {
   margin: 0;
 }
 
-.searchBar{
-  height: auto;
+.searchTool{
+  height: 70px;
   display: block;
-  width: 100%;
+  width: calc(100% - 72px);
   border-bottom: 1px solid #ddd;
   background: $white;
   color: #ddd;
-  padding: 10px 20px;
-  color: #191919;
+  padding: 10px 16px;
+  color: #003245;
   font: 16px/1.4 $SFtext;
   font-weight: 200;
-  text-align: center;
+  text-align: left;
+  overflow: hidden;
+  position: fixed;
+  z-index: 1;
+
 }
 
-.searchBar a{
-  margin-right: 32px;
+.filterBrand{
+  width: auto;
+  padding: 16px 0;
+  border: none;
+  text-align: left;
+  float: right;
+  align-items: center;
 }
 
-.searchBar a:last-child{
+.searchTool a{
+  margin-right: 8px;
+  padding: 8px 16px;
+  background: #eee;
+  border-radius: 4px;
+  color: #003245;
+  transition: all 0.2s ease-in-out;
+
+  @include mobile {
+    padding: 8px 12px;
+    margin-right: 4px;
+  }
+
+}
+
+.searchTool a:hover{ background: #ddd; color: #003245;}
+
+.searchTool a:last-child{
   margin-right: 0px;
 }
 
-.searchBar a{ color: #191919;}
-
-.searchBar input{
-  height: 40px;
-  width: 300px;
+.searchTool input{
+  width: 50%;
   border: none;
-  font: 20px/1.4 $SFtext;
+  text-align: left;
+  border-bottom: none;
+  font: 24px/1.4 Helvetica;
+  font: 24px/1.4 "SF Text";
+  letter-spacing: -0.4px;
+  margin: 6px 0;
+  font-weight: 100;
+
+  @include mobile {
+    width: 40%;
+    font: 16px/1.4 "SF Text";
+    margin: 16px 0;
+  }
 }
 
 input:focus{
@@ -492,4 +553,20 @@ input:focus{
 
 ::-webkit-scrollbar {
   display: none;
+}
+
+#github-icon{
+  position: absolute;
+  margin: 0 6px;
+  bottom: 16px;
+  height: 28px;
+  overflow: hidden;
+
+  @include mobile {
+    display: none;
+  }
+}
+
+.icon_label_name p{
+  font-size: 8px;
 }
