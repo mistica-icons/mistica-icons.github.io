@@ -9,7 +9,7 @@ layout: default
 
 <div class="card_wrapper">
   {% for image in site.static_files %}
-    {% if image.path contains 'icons/' %}
+    {% if image.path contains 'icons/iconFiles' %}
       {% if image.extname == '.svg' or image.extname == '.SVG' %}
         <div class="card" id="{{ image.name | remove: '.svg' }}" data-tags="{{ image.name | remove: '.svg' }}">
           <div class="card_icon">
