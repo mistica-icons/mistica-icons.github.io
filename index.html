@@ -9,7 +9,7 @@ layout: default
 
 <div class="card_wrapper">
   {% for image in site.static_files %}
-    {% if image.path contains 'icn_export/' %}
+    {% if image.path contains 'icons/' %}
       {% if image.extname == '.svg' or image.extname == '.SVG' %}
         <div class="card" id="{{ image.name | remove: '.svg' }}" data-tags="{{ image.name | remove: '.svg' }}">
           <div class="card_icon">
@@ -25,8 +25,3 @@ layout: default
     {% endif %}
   {% endfor %}
 </div>
-
-
-<style>
-  .filterBrand #all{background: #003245; color: #fff;}
-</style>
