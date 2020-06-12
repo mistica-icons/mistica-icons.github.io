@@ -25,10 +25,10 @@ $("#searchInput").keyup(function () {
   }
 
   $(".card").hide();
-  $("#icn_" + searchValue).show();
+  $(searchValue).show();
 
   $.each(icnSelected, function (arrayPosition, icnValue){
-    $("#icn_" + icnValue).show();
+    $(icnValue).show();
   });
   $(".card").each(function (arrayPosition){
     var iconName = this.id.substring(4);
